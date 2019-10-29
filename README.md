@@ -12,7 +12,7 @@ Project struture
 
 #### How to use
 ##### Local style
-Use this command line to run: __python -m main <first_arg> <second_arg>__
+Use this command line to run: __python -m main <first_arg> <second_arg>__<br />
 **Note**: 
 - <first_arg> must be a string
 - <second_arg> must be an integer
@@ -32,9 +32,9 @@ We can check our docker image
 ```console
 foo@bar:~$ docker images
 ```
-Next, we can run a container based on this docker image via the command line:
-__docker run --rm array-left-rotation <first_arg> <second_arg>__
-By default, the <first_arg> is "abcde" and <second_arg> is 3.
+Next, we can run a container based on this docker image via the command line:<br />
+__docker run --rm array-left-rotation <first_arg> <second_arg>__<br />
+By default, the <first_arg> is "abcde" and <second_arg> is 3.<br />
 For example:
 ```console
 foo@bar:~$ docker run --rm array-left-rotation
