@@ -12,6 +12,7 @@ class LeftRotation:
     def rotate(self, string, nb_rotation):
         """
         Rotates the string
+        Time complexity: O(N)
 
         Parameters
         ----------
