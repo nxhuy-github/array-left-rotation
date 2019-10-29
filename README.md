@@ -1,6 +1,6 @@
 ### Hackerrank - Array Left Rotation
 
-Project struture
+Project structure
 ```
 .
 ├── main.py             # Main entry
